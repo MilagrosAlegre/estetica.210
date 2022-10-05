@@ -310,3 +310,37 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
 }
+@media (ancho máximo:600px){
+      h1 {font-size:3rem;
+        text-align: centro;}
+     }
+     @media (ancho máximo:600px) {
+ . section-aside{display: flex;
+       flex-direction: fila;
+       align-items: estiramiento;
+       flex-wrap:envolver;}
+     }
+
+     @media (ancho máximo:600px) {
+ . imagen1 {display: none;}
+     }
+     @media (min-width:600px) {
+ . imagen2{display: none;}
+     }
+       @media (ancho máximo:600px) {
+ . iframe{display: flex;
+          flex-direction: fila;
+            justify-content:space-around;}
+          }
+     @media (min-width:600px) {
+ . imagen3{display: none;}
+     }
+     @media (ancho máximo:600px){
+       encabezado {background-color:#D6DBDF; }
+     }
+     @media (ancho máximo:1000px) {
+ . imagen1{ancho: 40vw; altura: 30vh;}
+     }
+     @media (ancho máximo: 1000px){
+ . section-aside {font-size: 1.2rem;}
+     }
